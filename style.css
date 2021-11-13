@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Laviossa";
+  /* font-family: "KyivType Sans"; */
+  /* font-family: "Rasputin"; */
+  /* font-family: "Stinger Fit"; */
+  background: #317037;
+  color: #eaa5b3;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.wrapper .container {
+  width: 96%;
+  margin: 0px auto;
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  background-color: #eaa5b3;
+}
+
+.whitespace {
+  width: 100%;
+  height: 80px;
+}
+
+/* navbar */
+.navbar .navbar-container {
+  height: 25px;
+  display: flex;
+  padding: 20px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar a {
+  border: 0.5px solid #eaa5b3;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+/* header */
+.header {
+  margin: 80px 0;
+}
+
+.header .header-container h1 {
+  font-size: 10rem;
+}
+
+@media (max-width: 900px) {
+  .header .header-container h1 {
+    font-size: 4.4rem;
+  }
+}
+
+/* section-header */
+.section-header .section-header-container {
+  display: flex;
+  padding: 12px 0;
+  font-size: 16px;
+  justify-content: space-between;
+}
+
+/* about */
+.about {
+  width: 100%;
+}
+
+.about::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about .about-container {
+  width: 70%;
+  float: right;
+}
+
+.about .about-container p {
+  margin: 40px 0;
+  font-size: 36px;
+}
+
+@media (max-width: 900px) {
+  .about .about-container {
+    width: 100%;
+  }
+
+  .about .about-container p {
+    font-size: 24px;
+  }
+}
+
+/* social */
+.socials {
+  padding: 20px 0;
+}
+
+.socials .socials-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials .socials-container a {
+  cursor: pointer;
+  font-size: 64px;
+}
+
+@media (max-width: 900px) {
+  .socials .socials-container a {
+    font-size: 30px;
+  }
+}
+
+/* project */
+.project-block {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  font-size: 70px;
+  align-items: center;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  padding: 4px 0;
+  list-style: none;
+  font-size: 26px;
+}
+
+li:first-child {
+  padding-top: 40px;
+}
+
+li:last-child {
+  padding-bottom: 40px;
+}
+
+@media (max-width: 900px) {
+  .project-block {
+    font-size: 30px;
+    padding: 10px;
+  }
+
+  ul li {
+    font-size: 20px;
+  }
+
+  li:first-child {
+    padding-top: 10px;
+  }
+  li:last-child {
+    padding-bottom: 10px;
+  }
+}
+
+[data-collapse] {
+  cursor: pointer;
+}
+
+.heightzero {
+  height: 0px;
+}
