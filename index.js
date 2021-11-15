@@ -10,7 +10,7 @@ parent.forEach((element) => {
 
   tl.from(
     collapseElement,
-    1.6,
+    1.5,
     {
       className: "+=heightzero",
       ease: Expo.easeInOut,
@@ -19,7 +19,7 @@ parent.forEach((element) => {
   );
   tl.staggerFrom(
     collapseElementChildren,
-    1,
+    3,
     {
       autoAlpha: 0,
       y: "40%",

@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Laviossa";
+  src: url(Laviossa.otf) format("opentype"), url(Laviossa.woff) format("woff"),
+    url(Laviossa.ttf) format("truetype");
+  font-weight: 400;
+}
 * {
   margin: 0;
   padding: 0;
