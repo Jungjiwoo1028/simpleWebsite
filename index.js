@@ -22,10 +22,9 @@ parent.forEach((element) => {
     3,
     {
       autoAlpha: 0,
-      y: "40%",
       ease: Expo.easeInOut,
     },
-    0.08,
+    0.8,
     "open+=.1"
   );
 

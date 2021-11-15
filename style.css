@@ -11,8 +11,8 @@
   /* font-family: "KyivType Sans"; */
   /* font-family: "Rasputin"; */
   /* font-family: "Stinger Fit"; */
-  background: #317037;
-  color: #eaa5b3;
+  background: #de2323;
+  color: #fff;
 }
 
 html,
@@ -36,7 +36,7 @@ a {
 .divider {
   width: 100%;
   height: 2px;
-  background-color: #eaa5b3;
+  background-color: #fff;
 }
 
 .whitespace {
@@ -55,7 +55,7 @@ a {
 }
 
 .navbar a {
-  border: 0.5px solid #eaa5b3;
+  border: 2px solid #fff;
   border-radius: 50%;
   text-align: center;
   padding: 10px 20px;
@@ -72,7 +72,7 @@ a {
 
 @media (max-width: 900px) {
   .header .header-container h1 {
-    font-size: 4.4rem;
+    font-size: 3.2rem;
   }
 }
 
@@ -132,7 +132,7 @@ a {
 
 @media (max-width: 900px) {
   .socials .socials-container a {
-    font-size: 30px;
+    font-size: 23px;
   }
 }
 
