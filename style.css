@@ -11,13 +11,18 @@
   /* font-family: "KyivType Sans"; */
   /* font-family: "Rasputin"; */
   /* font-family: "Stinger Fit"; */
-  background: #de2323;
+
   color: #fff;
 }
 
 html,
 body {
-  overflow-x: hidden;
+  background-image: linear-gradient(
+    to bottom,
+    #feac5e 0%,
+    #c779d0 51%,
+    #4bc0c8 100%
+  );
 }
 
 a {
