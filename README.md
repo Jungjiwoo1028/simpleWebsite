@@ -1,6 +1,8 @@
 # personal website with a simple design.
+### [go site](https://jungjiwoo1028.github.io/simpleWebsite/) 
 
-## Preview :herb:
-<img src="https://user-images.githubusercontent.com/75884943/140025201-dc201426-3d17-426c-89f7-c334fa8b1b06.gif" width="275" height="517"> <img src="https://user-images.githubusercontent.com/75884943/140028031-53d72faa-4a41-4e5b-a35b-7a0a5bccb2a0.gif" width="680" height="430">
+## Preview 
+<img width="329" alt="스크린샷 2021-11-19 18 19 37" src="https://user-images.githubusercontent.com/75884943/142598646-b95a46de-8a52-44f9-bbc2-9b03bc2e3993.png">
 
-##### [go site](https://jungjiwoo1028.github.io/simpleWebsite/) 
+
+
