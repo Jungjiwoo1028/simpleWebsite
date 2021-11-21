@@ -1,32 +1,49 @@
 @font-face {
-  font-family: "Laviossa";
-  src: url(Laviossa.otf) format("opentype"), url(Laviossa.woff) format("woff"),
-    url(Laviossa.ttf) format("truetype");
+  font-family: "Mirador";
+  src: url(Mirador.otf) format("opentype"), url(Laviossa.woff) format("woff"),
+    url(Mirador.ttf) format("truetype");
   font-weight: 400;
 }
 * {
   margin: 0;
   padding: 0;
-  font-family: "Laviossa";
+  font-family: "Mirador";
+  /* font-family: "Laviossa"; */
   /* font-family: "KyivType Sans"; */
   /* font-family: "Rasputin"; */
   /* font-family: "Stinger Fit"; */
 
-  color: #fff;
+  color: #eaf5f1;
 }
 
 html,
 body {
-  background-image: linear-gradient(
-    to bottom,
-    #feac5e 0%,
-    #c779d0 51%,
-    #4bc0c8 100%
-  );
+  background: #404241;
+}
+
+h4 {
+  margin-left: 1.7rem;
+  font-size: 1.9rem;
+  font-style: italic;
+  font-weight: bolder;
+  margin-top: 1rem;
+}
+
+h4:hover {
+  transition: 0.5s;
+  color: #9bafa8;
+}
+
+h4:last-child {
+  margin-bottom: 10px;
 }
 
 a {
   text-decoration: none;
+}
+
+.blank {
+  margin-left: 1.7rem;
 }
 
 .wrapper {
@@ -53,7 +70,7 @@ a {
 .navbar .navbar-container {
   height: 25px;
   display: flex;
-  padding: 20px;
+  padding: 20px 0;
   font-size: 16px;
   align-items: center;
   justify-content: space-between;
@@ -72,12 +89,22 @@ a {
 }
 
 .header .header-container h1 {
-  font-size: 10rem;
+  font-size: 7.5rem;
+  font-weight: 100;
 }
 
 @media (max-width: 900px) {
   .header .header-container h1 {
     font-size: 3.2rem;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+    margin-top: 0.7rem;
+  }
+
+  ul li {
+    font-size: 16px !important;
   }
 }
 

@@ -35,7 +35,7 @@ parent.forEach((element) => {
 
 anime.timeline().add({
   targets: ".main-title",
-  translateY: [100, 0],
+  translateY: [110, 0],
   translateZ: 0,
   opacity: [0, 1],
   easing: "easeOutExpo",
