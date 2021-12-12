@@ -28,7 +28,7 @@ h4 {
   font-weight: bolder;
   margin-top: 1rem;
 }
-
+a:hover,
 h4:hover {
   transition: 0.5s;
   color: #9bafa8;
