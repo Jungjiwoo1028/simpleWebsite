@@ -1,24 +1,24 @@
 @font-face {
-  font-family: "Mirador";
-  src: url(Mirador.otf) format("opentype"), url(Laviossa.woff) format("woff"),
-    url(Mirador.ttf) format("truetype");
+  font-family: "Laviossa";
+  src: url(Laviossa.otf) format("opentype"), url(Laviossa.woff) format("woff"),
+    url(Laviossa.ttf) format("truetype");
   font-weight: 400;
 }
 * {
   margin: 0;
   padding: 0;
-  font-family: "Mirador";
-  /* font-family: "Laviossa"; */
+  /* font-family: "Mirador"; */
+  font-family: "Laviossa";
   /* font-family: "KyivType Sans"; */
   /* font-family: "Rasputin"; */
   /* font-family: "Stinger Fit"; */
 
-  color: #eaf5f1;
+  color: #000;
 }
 
 html,
 body {
-  background: #404241;
+  background: #bda0c8;
 }
 
 h4 {
@@ -31,7 +31,7 @@ h4 {
 a:hover,
 h4:hover {
   transition: 0.5s;
-  color: #9bafa8;
+  color: #fff;
 }
 
 h4:last-child {
@@ -40,6 +40,11 @@ h4:last-child {
 
 a {
   text-decoration: none;
+}
+
+.github {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
 }
 
 .blank {
@@ -58,7 +63,7 @@ a {
 .divider {
   width: 100%;
   height: 2px;
-  background-color: #fff;
+  background-color: #000;
 }
 
 .whitespace {
@@ -77,7 +82,7 @@ a {
 }
 
 .navbar a {
-  border: 2px solid #fff;
+  border: 2px solid #000;
   border-radius: 50%;
   text-align: center;
   padding: 10px 20px;
